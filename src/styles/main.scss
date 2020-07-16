@@ -1,0 +1,15 @@
+@import "utils";
+@import "reset";
+@import "fonts";
+@import "typography";
+@import "./header/header";
+@import "./header/_navigation";
+
+html {
+  @include fonts-style (300, 14px, normal, $own_color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
