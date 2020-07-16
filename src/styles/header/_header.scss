@@ -1,22 +1,7 @@
-
 .header {
-  max-width: 1350px;
-  margin: 20px auto;
-  padding: 0 100px;
+  max-width: $max-width;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-
-  &__logo {
-    @include fonts-style (300, 11px, normal, $own_color);
-    margin: 0 50px 0 0;
-    text-align: right;
-  }
-
-  &__contacts {
-    @include fonts-style (400, 14px, normal, $own_color);
-    font-family: "Helvetica-Roman";
-    min-width: 150px;
-    margin: 0 50px;
-  }
+  justify-content: space-between;
+  padding: 5px 50px;
+  
 }
