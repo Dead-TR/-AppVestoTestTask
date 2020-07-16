@@ -3,5 +3,47 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 50px;
-  
+  background: black;
+
+  &__section {
+    display: flex;
+  }
+
+  &__logo {
+
+  }
+
+  &__logo-big {
+    @include fonts-style ("Myriad", normal, 42px, normal, white);
+  }
+
+  &__logo-small {
+    @include fonts-style ("Myriad", normal, 14px, normal, red);
+  }
+
+  &__separator {
+    height: 80%;
+    width: 2px;
+    background: #424242;
+    margin: 5px 20px;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__link {
+    @include fonts-style ("Anisette", normal, 14px, normal, #424242);
+    display: block;
+  }
+
+  &__section_left .header__logo-small {
+    text-align: right;
+  }
+
+  &__section_right .header__logo-small {
+    text-align: left;
+  }
 }
