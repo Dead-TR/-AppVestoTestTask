@@ -1,0 +1,98 @@
+.body {
+  max-width: 1200px;
+  background: #ccc;
+  margin: 0 auto;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .body__outside {
+    position: relative;
+    height: 100%; }
+  .body__text-content {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .body__title {
+    font-family: "Heebo", "Roboto", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+    font-style: normal; }
+  .body__services {
+    font-family: "Heebo", "Roboto", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    font-style: normal; }
+  .body__message {
+    font-family: "Heebo", "Roboto", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+    font-style: normal; }
+  .body__notice {
+    background: #0071bc;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    margin-left: 10px;
+    font-family: "Heebo", "Roboto", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: white;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .body__inside {
+    background: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .body__content {
+    display: inline; }
+  .body__video {
+    width: 770px;
+    height: 380px;
+    margin: 0;
+    background: black; }
+  .body__video-title {
+    background: #3fa9f5;
+    margin-top: -5px;
+    height: 30px;
+    font-family: "Heebo", "Roboto", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    font-style: normal;
+    text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  .body__video {
+    width: 620px;
+    height: 300px; } }
+
+/*# sourceMappingURL=body.css.map */
