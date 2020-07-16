@@ -1,4 +1,4 @@
-.broadcast {
+.body {
   max-width: $max-width;
   background: $bg-color;
   margin: 0 auto;
@@ -60,7 +60,7 @@
 
   &__video {
     width: 770px;
-    height: 380;
+    height: 380px;
     margin: 0;
     background: black;
   }
@@ -71,5 +71,12 @@
     height: 30px;
     @include fonts-style ("Heebo", normal, 18px, normal, white);
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .body__video {
+    width: 620px;
+    height: 300px;
   }
 }
