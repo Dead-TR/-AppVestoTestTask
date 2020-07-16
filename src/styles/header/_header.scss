@@ -1,5 +1,6 @@
 .header {
   max-width: $max-width;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding: 5px 50px;

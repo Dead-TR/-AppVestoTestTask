@@ -1,0 +1,75 @@
+.broadcast {
+  max-width: $max-width;
+  background: $bg-color;
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+
+  &__outside {
+    position: relative;
+    height: 100%;
+  }
+
+  &__text-content {
+    margin-left: 0;
+    margin-right: auto;
+
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    @include fonts-style ("Heebo", normal, 24px, normal, black);
+  }
+
+  &__services {
+    @include fonts-style ("Heebo", normal, 14px, normal, black);
+  }
+
+  &__message {
+    @include fonts-style ("Heebo", normal, 18px, normal, black);
+  }
+
+  &__notice {
+    background: #0071bc;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    margin-left: 10px;
+
+    @include fonts-style ("Heebo", 600, 21px, normal, white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__inside {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    display: inline;
+  }
+
+  &__video {
+    width: 770px;
+    height: 380;
+    margin: 0;
+    background: black;
+  }
+
+  &__video-title {
+    background: #3fa9f5;
+    margin-top: -5px;
+    height: 30px;
+    @include fonts-style ("Heebo", normal, 18px, normal, white);
+    text-align: center;
+  }
+}
