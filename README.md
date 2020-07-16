@@ -1,6 +1,2 @@
-Landing for `Miami Condo Kings`
-
-
--[the landing page](https://www.figma.com/file/nHz8bflIwJaWP3P99vKTH5/miami_home_new?node-id=0%3A2)
-
--[Preview](https://Dead-TR.github.io/layout_miami/)
+-[Mock-up](https://drive.google.com/file/d/1uFHIoPAjcmP9PaHBcIUw0Kx8RcucuWxY/view?usp=sharing)
+-[Preview](https://dead-tr.github.io/-AppVestoTestTask/)

@@ -3,6 +3,14 @@
   display: flex;
   justify-content: space-between;
 
+  &__contact-item {
+    transition: 0.5s transform;
+  }
+
+  &__contact-item:hover {
+    transform: scale(1.2);
+  }
+
   &__left .footer__contact-item {
     margin-right: 15px;
   }
@@ -10,7 +18,5 @@
   &__right .footer__contact-item {
     margin-left: 15px;
   }
-  // &__contact-item {
 
-  // }
 }

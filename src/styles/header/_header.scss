@@ -5,13 +5,10 @@
   justify-content: space-between;
   padding: 5px 50px;
   background: black;
+  margin: 0 auto;
 
   &__section {
     display: flex;
-  }
-
-  &__logo {
-
   }
 
   &__logo-big {
@@ -38,6 +35,11 @@
   &__link {
     @include fonts-style ("Anisette", normal, 14px, normal, #424242);
     display: block;
+    transition: 1s color;
+  }
+
+  &__link:hover {
+    color: #b8b8b8;
   }
 
   &__section_left .header__logo-small {
